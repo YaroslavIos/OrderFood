@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		C23607C82A47143800F654E8 /* PizzaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23607C72A47143800F654E8 /* PizzaCell.swift */; };
 		C23607CA2A4720EA00F654E8 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23607C92A4720EA00F654E8 /* Pizza.swift */; };
-		C23607CC2A4722B300F654E8 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = C23607CB2A4722B300F654E8 /* food.json */; };
-		C23607CE2A47232A00F654E8 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23607CD2A47232A00F654E8 /* CodableExtension.swift */; };
 		C23E7D072A44DD150082DF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23E7D062A44DD150082DF88 /* AppDelegate.swift */; };
 		C23E7D092A44DD150082DF88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23E7D082A44DD150082DF88 /* SceneDelegate.swift */; };
 		C23E7D0B2A44DD150082DF88 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23E7D0A2A44DD150082DF88 /* MenuViewController.swift */; };
@@ -33,8 +31,6 @@
 /* Begin PBXFileReference section */
 		C23607C72A47143800F654E8 /* PizzaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCell.swift; sourceTree = "<group>"; };
 		C23607C92A4720EA00F654E8 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
-		C23607CB2A4722B300F654E8 /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = food.json; path = Data/food.json; sourceTree = SOURCE_ROOT; };
-		C23607CD2A47232A00F654E8 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
 		C23E7D032A44DD150082DF88 /* OrderFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23E7D062A44DD150082DF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C23E7D082A44DD150082DF88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,10 +90,8 @@
 				C256FA5E2A4788E100367CBF /* Services */,
 				C256FA6E2A48644500367CBF /* Pizza */,
 				C23E7D0F2A44DD1B0082DF88 /* Assets.xcassets */,
-				C23607CD2A47232A00F654E8 /* CodableExtension.swift */,
 				C256FA642A47937400367CBF /* LaunchScreen */,
 				C23E7D142A44DD1B0082DF88 /* Info.plist */,
-				C23607CB2A4722B300F654E8 /* food.json */,
 			);
 			path = OrderFood;
 			sourceTree = "<group>";
@@ -234,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C23607CC2A4722B300F654E8 /* food.json in Resources */,
 				C23E7D132A44DD1B0082DF88 /* LaunchScreen.storyboard in Resources */,
 				C23E7D102A44DD1B0082DF88 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +250,6 @@
 				C256FA5B2A47808600367CBF /* BannersCollectionViewCell.swift in Sources */,
 				C256FA592A477F1B00367CBF /* BannerImage.swift in Sources */,
 				C256FA5D2A47885100367CBF /* DataStore.swift in Sources */,
-				C23607CE2A47232A00F654E8 /* CodableExtension.swift in Sources */,
 				C23E7D212A44EB330082DF88 /* CartViewController.swift in Sources */,
 				C23E7D072A44DD150082DF88 /* AppDelegate.swift in Sources */,
 				C256FA662A47945900367CBF /* IndicatorCollectionView.swift in Sources */,
