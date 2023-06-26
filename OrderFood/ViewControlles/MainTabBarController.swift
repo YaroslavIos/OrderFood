@@ -16,6 +16,7 @@ class MainTabBarController: UITabBarController {
         
         UITabBar.appearance().backgroundColor = .white
         createTabBarController()
+        setTabBarAppearance()
     }
     
     private func createTabBarController() {
@@ -48,5 +49,10 @@ class MainTabBarController: UITabBarController {
         viewController.tabBarItem.image = image
         
         return viewController
+    }
+    
+    func setTabBarAppearance() {
+        tabBar.tintColor = .tabBarItemSelected
+        tabBar.unselectedItemTintColor = .tabBarColorNotSelected
     }
 }
