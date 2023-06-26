@@ -25,6 +25,7 @@
 		C256FA662A47945900367CBF /* IndicatorCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256FA652A47945900367CBF /* IndicatorCollectionView.swift */; };
 		C256FA682A47957F00367CBF /* IndicatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256FA672A47957F00367CBF /* IndicatorCollectionViewCell.swift */; };
 		C256FA6C2A48068E00367CBF /* PizzaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256FA6B2A48068E00367CBF /* PizzaListView.swift */; };
+		C27E8E212A49EEB000FE354B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27E8E202A49EEB000FE354B /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		C256FA652A47945900367CBF /* IndicatorCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorCollectionView.swift; sourceTree = "<group>"; };
 		C256FA672A47957F00367CBF /* IndicatorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorCollectionViewCell.swift; sourceTree = "<group>"; };
 		C256FA6B2A48068E00367CBF /* PizzaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListView.swift; sourceTree = "<group>"; };
+		C27E8E202A49EEB000FE354B /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				C256FA6F2A48B06100367CBF /* ScrollIndicator */,
 				C256FA5F2A47907E00367CBF /* Models */,
 				C256FA6E2A48644500367CBF /* Pizza */,
+				C27E8E222A49F14D00FE354B /* Extensions */,
 				C23E7D0F2A44DD1B0082DF88 /* Assets.xcassets */,
 				C256FA642A47937400367CBF /* LaunchScreen */,
 				C23E7D142A44DD1B0082DF88 /* Info.plist */,
@@ -159,6 +162,14 @@
 			path = ScrollIndicator;
 			sourceTree = "<group>";
 		};
+		C27E8E222A49F14D00FE354B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C27E8E202A49EEB000FE354B /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27E8E212A49EEB000FE354B /* UIColorExtension.swift in Sources */,
 				C256FA612A4790D000367CBF /* IndicatorTitle.swift in Sources */,
 				C23607C82A47143800F654E8 /* PizzaCell.swift in Sources */,
 				C23E7D1F2A44EA700082DF88 /* ProfileViewController.swift in Sources */,
